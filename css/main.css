@@ -1,7 +1,32 @@
+@import url(normalize.css);
+@font-face {
+  font-family: 'GothamBook';
+  src: url("../fonts/Gotham-Book.eot");
+  src: url("../fonts/Gotham-Book.eot?#iefix") format("embedded-opentype"), url("../fonts/Gotham-Book.woff") format("woff"), url("../fonts/Gotham-Book.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal; }
+@font-face {
+  font-family: 'GothamBold';
+  src: url("../fonts/Gotham-Bold.eot");
+  src: url("../fonts/Gotham-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Gotham-Bold.woff") format("woff"), url("../fonts/Gotham-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+.gotham-bold, .bold {
+  font-family: 'GothamBold', sans-serif; }
+
+.gotham-book {
+  font-family: 'GothamBook', sans-serif;
+  font-weight: 600; }
+
+.gotham-italic {
+  font-family: 'GothamBook', sans-serif;
+  font-weight: 600;
+  font-style: italic; }
+
 body {
   padding: 0;
   margin: 0;
-  font-family: arial, helvetica, sans-serif;
+  font-family: "GothamBook", helvetica, sans-serif;
   font-size: 16px; }
 
 div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, td, tr, form, fieldset, label, select, checkbox, input, textarea {
@@ -14,20 +39,7 @@ div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd
   -moz-box-sizing: border-box; }
 
 .container {
-  width: 100%;
+  width: 538px;
   margin: 0 auto; }
-  @media only screen and (min-width: 1200px) {
-    .container {
-      width: 1140px; } }
-  @media only screen and (max-width: 1200px) {
-    .container {
-      width: 970px; } }
-  @media only screen and (max-width: 992px) {
-    .container {
-      width: 750px; } }
-  @media only screen and (max-width: 768px) {
-    .container {
-      width: 100%;
-      padding: 0 5px; } }
 
 /*# sourceMappingURL=main.css.map */

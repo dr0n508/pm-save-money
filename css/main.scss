@@ -1,7 +1,17 @@
+@import "normalize.css";
+@import "_fonts.scss";
+
+
+.bold {
+  @extend .gotham-bold;
+}
+
+
+
 body {
   padding: 0;
   margin: 0;
-  font-family: arial, helvetica, sans-serif;
+  font-family: "GothamBook", helvetica, sans-serif;
   font-size: 16px;
 }
 
@@ -21,20 +31,20 @@ header {
 }
 
 .container {
-  width: 100%;
+  width: 538px;
   margin: 0 auto;
   @media only screen and (min-width: 1200px) {
-    width: 1140px;
+    //width: 1140px;
   }
   @media only screen and (max-width: 1200px) {
-    width: 970px;
+    //width: 970px;
   }
   @media only screen and (max-width: 992px) {
-    width: 750px;
+    //width: 750px;
   }
   @media only screen and (max-width: 768px) {
-    width: 100%;
-    padding: 0 5px;
+    //width: 100%;
+    //padding: 0 5px;
   }
 }
 
