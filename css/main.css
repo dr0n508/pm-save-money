@@ -45,8 +45,10 @@ body {
   margin: 0 auto; }
   @media only screen and (max-width: 540px) {
     .container {
-      width: 100%;
-      padding: 0 5px; } }
+      width: 100%; } }
+
+.mb15 {
+  margin-bottom: 15px; }
 
 header {
   background-color: #005189;
@@ -67,6 +69,13 @@ header {
   .way-wrapper .title-way, .way-wrapper .description-way {
     width: 50%;
     float: left; }
+  @media only screen and (max-width: 500px) {
+    .way-wrapper .title-way {
+      width: 100%;
+      padding: 30px 0 0; }
+    .way-wrapper .description-way {
+      width: 100%;
+      padding: 30px 0; } }
 
 .title-way {
   padding: 30px 15px 30px 0; }
@@ -122,13 +131,10 @@ header {
 .description-way {
   padding: 30px 0 30px 15px;
   font-weight: 600; }
-  .description-way p {
-    margin-bottom: 15px; }
-    .description-way p:last-child {
-      margin-bottom: 0; }
   .description-way .strong-text {
-    text-transform: uppercase;
-    margin-bottom: 0; }
+    text-transform: uppercase; }
+  .description-way .super-save .italic-text {
+    font-style: italic; }
   .description-way .super-save p {
     display: inline-block;
     position: relative; }
@@ -150,5 +156,8 @@ footer {
   footer span, footer a {
     text-decoration: none;
     color: #213a70; }
+  @media only screen and (max-width: 500px) {
+    footer {
+      padding: 30px 15px 20px 15px; } }
 
 /*# sourceMappingURL=main.css.map */
