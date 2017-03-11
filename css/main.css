@@ -13,7 +13,8 @@ body {
   margin: 0;
   font-family: "GothamBook", helvetica, sans-serif;
   font-size: 12px;
-  color: #213a70; }
+  color: #213a70;
+  line-height: 1.20; }
 
 @font-face {
   font-family: 'GothamBook';
@@ -54,14 +55,14 @@ header {
   background-color: #005189;
   text-align: center;
   color: white;
-  padding: 15px; }
+  padding: 20px 15px 18px 15px; }
   header h1 {
-    padding-bottom: 15px;
+    padding-bottom: 18px;
     text-transform: uppercase;
     font-size: 16px; }
 
 .list-ways {
-  padding: 0 15px; }
+  padding: 0 25px; }
 
 .way-wrapper {
   overflow: hidden;
@@ -81,7 +82,7 @@ header {
       padding: 30px 0; } }
 
 .title-way {
-  padding: 30px 15px 30px 0; }
+  padding: 35px 15px 33px 0; }
   .title-way h2 {
     float: left;
     width: 70%;
@@ -89,6 +90,7 @@ header {
     font-size: 16px;
     line-height: 20px; }
   .title-way .badge {
+    margin-top: 5px;
     float: right; }
 
 .badge {
@@ -132,7 +134,7 @@ header {
   background-repeat: no-repeat; }
 
 .description-way {
-  padding: 30px 0 30px 15px;
+  padding: 35px 0 33px 20px;
   font-weight: 600; }
   .description-way .strong-text {
     text-transform: uppercase; }
@@ -153,7 +155,7 @@ header {
     display: block; }
 
 footer {
-  padding: 30px 50px 20px 50px;
+  padding: 40px 50px 20px 50px;
   text-align: center;
   text-transform: uppercase;
   font-size: 18px; }
