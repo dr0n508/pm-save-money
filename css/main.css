@@ -72,7 +72,10 @@ header {
   @media only screen and (max-width: 500px) {
     .way-wrapper .title-way {
       width: 100%;
-      padding: 30px 0 0; }
+      padding: 30px 0 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between; }
     .way-wrapper .description-way {
       width: 100%;
       padding: 30px 0; } }
@@ -134,7 +137,8 @@ header {
   .description-way .strong-text {
     text-transform: uppercase; }
   .description-way .super-save .italic-text {
-    font-style: italic; }
+    font-style: italic;
+    display: block; }
   .description-way .super-save p {
     display: inline-block;
     position: relative; }
@@ -154,6 +158,7 @@ footer {
   text-transform: uppercase;
   font-size: 18px; }
   footer span, footer a {
+    display: inline-block;
     text-decoration: none;
     color: #213a70; }
   @media only screen and (max-width: 500px) {
