@@ -69,10 +69,11 @@ header {
     float: left; }
 
 .title-way {
-  padding: 25px 15px 15px 0; }
+  padding: 30px 15px 30px 0; }
   .title-way h2 {
     float: left;
     width: 70%;
+    text-transform: uppercase;
     font-size: 16px;
     line-height: 20px; }
   .title-way .badge {
@@ -80,16 +81,16 @@ header {
 
 .badge {
   position: relative;
-  padding-top: 20px;
+  padding-top: 22px;
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  background-color: #90c43d;
   text-align: center;
-  font-size: 26px;
+  font-size: 24px;
   color: white; }
   .badge .percent {
-    font-weight: 500; }
+    font-weight: 500;
+    font-size: 22px; }
   .badge .title-badge {
     position: absolute;
     color: white;
@@ -100,12 +101,27 @@ header {
     padding: 2px 5px;
     background-color: #d29f30; }
 
+.badge.green {
+  background-color: #90c43d; }
+
+.badge.pink {
+  background-color: #ab1d55; }
+
+.badge.purple {
+  background-color: #83619f; }
+
+.badge.blue {
+  background-color: #0374ba; }
+
 .description-way {
-  padding: 25px 0 15px 15px;
+  padding: 30px 0 30px 15px;
   font-weight: 600; }
   .description-way p {
     margin-bottom: 15px; }
+    .description-way p:last-child {
+      margin-bottom: 0; }
   .description-way .strong-text {
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    margin-bottom: 0; }
 
 /*# sourceMappingURL=main.css.map */
