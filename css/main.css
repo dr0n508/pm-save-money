@@ -1,4 +1,19 @@
 @import url(normalize.css);
+div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, td, tr, form, fieldset, label, select, checkbox, input, textarea {
+  padding: 0;
+  margin: 0; }
+
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box; }
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "GothamBook", helvetica, sans-serif;
+  font-size: 12px; }
+
 @font-face {
   font-family: 'GothamBook';
   src: url("../fonts/Gotham-Book.eot");
@@ -23,23 +38,12 @@
   font-weight: 600;
   font-style: italic; }
 
-body {
-  padding: 0;
-  margin: 0;
-  font-family: "GothamBook", helvetica, sans-serif;
-  font-size: 16px; }
-
-div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, td, tr, form, fieldset, label, select, checkbox, input, textarea {
-  padding: 0;
-  margin: 0; }
-
-* {
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box; }
-
 .container {
-  width: 538px;
+  width: 540px;
   margin: 0 auto; }
+  @media only screen and (max-width: 540px) {
+    .container {
+      width: 100%;
+      padding: 0 5px; } }
 
 /*# sourceMappingURL=main.css.map */
